@@ -57,8 +57,8 @@ class SpeechRecognitionView(APIView):
         if(setted_lang == "fr"):
             command = [
                         "deepspeech",
-                        "--model", "../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm",
-                        "--scorer", "../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer",
+                        "--model", "../deepspeech/deepspeech-french-scorer/output_graph_fr.pbmm",
+                        "--scorer", "../deepspeech/deepspeech-french-scorer/kenlm_fr.scorer",
                         "--audio", audio_file_path
                     ]
         else:
