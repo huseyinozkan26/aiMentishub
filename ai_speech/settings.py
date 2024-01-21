@@ -12,7 +12,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '9=5c*j+v!@r!%)pm1*c0b_c*^ovpkdl*w^!0)fqysl5g2+253-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # Application definition
 
@@ -31,7 +31,7 @@ INSTALLED_APPS = [
     'pydub'
 ]
 
-ALLOWED_HOSTS = ["10.31.1.25","10.31.1.24","localhost", "127.0.0.1","195.214.181.54","etfo.tfo.k12.tr"]
+ALLOWED_HOSTS = ["localhost","ai.mentishub.com"]
 
 
 MIDDLEWARE = [
@@ -69,7 +69,6 @@ WSGI_APPLICATION = 'ai_speech.wsgi.application'
 
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',  # for localhost (REACT Default)
-    'http://195.214.181.54/:3000',  # for network 
     'http://localhost:8080',  # for localhost (Developlemt)
     'http://10.31.1.24',  # for network (Development)
     'https://etfo.tfo.k12.tr',  # for network (E-TFO)
@@ -77,7 +76,6 @@ CORS_ORIGIN_WHITELIST = (
 )
 CORS_ALLOWED_ORIGINS = [
    'http://localhost:3000',  # for localhost (REACT Default)
-    'http://195.214.181.54/:3000',  # for network 
     'http://localhost:8080',  # for localhost (Developlemt)
     'http://10.31.1.24',  # for network (Development)
     'https://etfo.tfo.k12.tr',  # for network (E-TFO)
@@ -86,7 +84,6 @@ CORS_ALLOWED_ORIGINS = [
 
 CSRF_TRUSTED_ORIGINS = [
     'localhost',  # for localhost (REACT Default)
-    '195.214.181.54/:3000',  # for network 
     'localhost:8080',  # for localhost (Developlemt)
     '10.31.1.24',  # for network (Development)
     'etfo.tfo.k12.tr',  # for network (E-TFO)
