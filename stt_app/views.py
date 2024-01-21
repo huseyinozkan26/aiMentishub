@@ -49,7 +49,7 @@ class SpeechRecognitionView(APIView):
         response["Access-Control-Allow-Methods"] = "GET, POST"
         response["Access-Control-Allow-Headers"] = "Content-Type"
         
-        #os.remove(temp_audio_file_path)
+        os.remove(temp_audio_file_path)
         return response
 
     def transcribe(self, audio_file_path, setted_lang = ""):
@@ -57,8 +57,8 @@ class SpeechRecognitionView(APIView):
         if(setted_lang == "fr"):
             command = [
                         "deepspeech",
-                        "--model", "../deepspeech/deepspeech-french-scorer/output_graph_fr.pbmm",
-                        "--scorer", "../deepspeech/deepspeech-french-scorer/kenlm_fr.scorer",
+                        "--model", "../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm",
+                        "--scorer", "../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer",
                         "--audio", audio_file_path
                     ]
         else:
