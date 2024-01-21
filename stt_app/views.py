@@ -10,8 +10,6 @@ from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render
 from django.views import View
-import shutil
-import uuid
 from django.conf import settings
 
 class SpeechRecognitionView(APIView):
@@ -23,6 +21,7 @@ class SpeechRecognitionView(APIView):
         audio_file = request.FILES['audio']
         submitted_text = request.POST.get('correct_text', '')  # Formdan gelen doğru metin
         setted_lang = request.POST.get('lang', '')  # Formdan gelen doğru metin
+
         
         print("seçilen dil: "+ setted_lang);
         audio_data = audio_file.read()
@@ -50,7 +49,7 @@ class SpeechRecognitionView(APIView):
         response["Access-Control-Allow-Methods"] = "GET, POST"
         response["Access-Control-Allow-Headers"] = "Content-Type"
         
-        os.remove(temp_audio_file_path)
+        #os.remove(temp_audio_file_path)
         return response
 
     def transcribe(self, audio_file_path, setted_lang = ""):

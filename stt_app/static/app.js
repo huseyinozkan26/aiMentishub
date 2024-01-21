@@ -49,7 +49,7 @@ $(document).ready(function () {
 				$("#result_container").html("Değerlendirme yapılıyor...")
                 $.ajax({
                     type: 'POST',
-                    url: 'http://localhost:8000/stt/api/speech-recognition/',
+                    url: 'https://45.139.199.217:8001/stt/api/speech-recognition/',
                     data: formData,
                     processData: false,
                     contentType: false,
