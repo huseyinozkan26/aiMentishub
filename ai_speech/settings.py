@@ -31,7 +31,7 @@ INSTALLED_APPS = [
     'pydub'
 ]
 
-ALLOWED_HOSTS = ["localhost","ai.mentishub.com"]
+ALLOWED_HOSTS = ["localhost","ai.mentishub.com", "45.139.199.217"]
 
 
 MIDDLEWARE = [
