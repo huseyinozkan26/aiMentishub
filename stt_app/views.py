@@ -117,7 +117,6 @@ class TestMicSpeechForm(View):
     
 class TestMaterial(View):
     template_name = 'test_material/index.html'
-
     def get(self, request, *args, **kwargs):
         return render(request, self.template_name)
 
